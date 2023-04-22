@@ -1,24 +1,20 @@
-*{
-    margin: 0px;
-}
-
 body {
+    margin: 0px;
     background-color: black;
     font-family: 'Montserrat', sans-serif;
-    
-
 }
 
 header{
     position: sticky;
     top: 0;
     background: #FCAF02;
-
 }
 
 main{
     margin: 10px;
 }
+
+/* Navbar */
 
 .logo a{
     text-decoration: none;
@@ -65,11 +61,7 @@ main{
     background-color: #FCAF02;
 }
 
-/* intro */
-
-/* .intro-section{
-    position: relative;
-} */
+/* intro section */
 
 .intro {
     display: flex;
@@ -89,18 +81,12 @@ main{
     font-weight: 400;
     font-size: 22px;
     line-height: 30px;
-
 }
 
 .left h1{
     font-size: xxx-large;
     font-weight: 700;
 }
-
-.right img{
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-}
-
 
 /* contact-us-form css*/
 
@@ -124,13 +110,11 @@ input{
     padding: 10px;
     padding-left: 30px;
     outline: none;
-
 }
 
 #name , #email{
     width: 95%;
 }
-
 
 .tel, .city{
     width: 45%;
@@ -146,10 +130,7 @@ input{
     width: 230px ;
     height: 60px;
     border-radius: 50px;
-    
-    
 }
-
 
 /* Css for Table Section */
 
@@ -182,8 +163,6 @@ thead{
 }
 
 tbody tr{ 
-    
-    /* padding: 10px; */
     height: 8vh;
 }
 
